@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background: black;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.247);
+  position: fixed;
+}
+
+li,
+a {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("img/bg1.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero {
+  text-align: center;
+  width: 50%;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+/**RL**/
+
+.rl {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("img/bg2.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.herorl {
+  padding-left: 100px;
+}
+
+.rl_header {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 64px;
+}
+
+.rl_text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 34px;
+  padding-top: 0px;
+  width: 50%;
+}
+
+/**lol**/
+
+.lol {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("img/bg3.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.herolol {
+  padding-left: 100px;
+}
+
+.lol_header {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 64px;
+}
+
+.lol_text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 34px;
+  padding-top: 0px;
+  width: 50%;
+}
+
+footer {
+  padding: 50px 80px;
+  width: 100%;
+  background: black;
+  display: flex;
+  white-space: nowrap;
+}
+
+.footerlinks {
+  list-style: none;
+}
+
+.footerlinks li {
+  padding: 0px 20px;
+}
