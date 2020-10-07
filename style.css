@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   width: 100%;
@@ -43,7 +47,7 @@ header {
 li,
 a {
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   color: white;
 }
 
@@ -77,8 +81,12 @@ a {
 .text {
   font-family: "Inter", sans-serif;
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-top: 20px;
+}
+
+.rcmark {
+  width: 50vw;
 }
 
 /**RL**/
@@ -128,6 +136,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-
 }
 
 .herolol {
@@ -165,4 +174,70 @@ footer {
   font-size: 18px;
   color: white;
   text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+  /**RL**/
+
+  .herorl {
+    padding-left: 10%;
+  }
+
+  .rl_header {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 32px;
+  }
+
+  .rl_text {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-top: 0px;
+    width: 50%;
+  }
+
+  /**LOL**/
+
+  .herolol {
+    padding-left: 10%;
+  }
+
+  .lol_header {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 32px;
+  }
+
+  .lol_text {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-top: 0px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body,
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .about {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("img/bg1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
 }
